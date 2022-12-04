@@ -1,6 +1,6 @@
-# Project Name
+# Telenote
 
-Project Description.
+Telenote is an intuitive note taking web app created specifically for developers. It provides users with an easy to use platform for writing, editing, and organizing notes using the popular markdown syntax.
 
 # Live version
 
