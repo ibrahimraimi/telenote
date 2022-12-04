@@ -1,7 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+import { Home, SharedLayout } from "./components";
+
 const App = () => {
 	return (
-		<div className="App">
-			<h1 className="text-[2rem] underline align-center">Telenote</h1>
+		<div>
+			<Routes>
+				<Route path="/" element={<SharedLayout />}>
+					<Route index element={<Home />} />
+				</Route>
+			</Routes>
 		</div>
 	);
 };
