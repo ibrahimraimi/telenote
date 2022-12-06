@@ -6,4 +6,15 @@ import Hero from "./Section/Hero/Hero";
 import Content from "./Section/Content/Content";
 import Footer from "./Section/Footer/Footer";
 
-export { SharedLayout, Loader, Home, Navbar, Hero, Content, Footer };
+import PageNotFound from "./Error/PageNotFound";
+
+export {
+	SharedLayout,
+	Loader,
+	Home,
+	Navbar,
+	Hero,
+	Content,
+	Footer,
+	PageNotFound,
+};
