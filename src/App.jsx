@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Home, SharedLayout } from "./components";
+import { Home, PageNotFound, SharedLayout } from "./components";
 
 const App = () => {
 	return (
@@ -8,6 +8,7 @@ const App = () => {
 				<Route path="/" element={<SharedLayout />}>
 					<Route index element={<Home />} />
 				</Route>
+				<Route path="*" element={<PageNotFound />} />
 			</Routes>
 		</div>
 	);
